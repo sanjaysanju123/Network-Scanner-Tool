@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>output of scan</title>
+<style>
+.center h1 {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  color:red;
+}
+.center h2{
+color:blue;
+}
+.out{
+color:black;
+}
+</style>
+</head>
+<body>
+{% block content %}
+<div class="center">
+ <h1><b>{{type}} Result:</b></h1><hr>
+<br> <h2><b>IP ADDRESS: {{ipadd}}</b><br></h2>
+<br><h1><b>SCAN REPORT: <br>
+<div class="out"> {{ my_output  | safe  }}</h1></div>
+{% endblock %}
+</center>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jul  7 01:28:58 2021 as: nmap -sn -oX &quot;/root/Documents/project 2.0/xmloutput/hostdiscovery.xml&quot; 192.168.43.109/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX &quot;/root/Documents/project 2.0/xmloutput/hostdiscovery.xml&quot; 192.168.43.109/24" start="1625635738" startstr="Wed Jul  7 01:28:58 2021" version="7.91" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.1" addrtype="ipv4"/>
+<address addr="70:BB:E9:26:43:AE" addrtype="mac" vendor="Xiaomi Communications"/>
+<hostnames>
+</hostnames>
+<times srtt="5293" rttvar="3971" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.11" addrtype="ipv4"/>
+<address addr="3C:91:80:0B:71:93" addrtype="mac" vendor="Liteon Technology"/>
+<hostnames>
+</hostnames>
+<times srtt="267" rttvar="2185" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.43.240" addrtype="ipv4"/>
+<address addr="08:00:27:AF:A7:26" addrtype="mac" vendor="Oracle VirtualBox virtual NIC"/>
+<hostnames>
+</hostnames>
+<times srtt="1003" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.43.109" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</host>
+<runstats><finished time="1625635740" timestr="Wed Jul  7 01:29:00 2021" summary="Nmap done at Wed Jul  7 01:29:00 2021; 256 IP addresses (4 hosts up) scanned in 2.23 seconds" elapsed="2.23" exit="success"/><hosts up="4" down="252" total="256"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Table</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../static/styles/tstyle.css"/>
+</head>
+ <h1><b>{{type}} Result:</b></h1><hr>
+<br> <h2><b> INPUT IP ADDRESS: {{ip}}</b><br></h2>
+   <table class="table">
+     <thead>
+        {% for header in headings %}
+        <th>{{ header }}</th>
+      
+         {% endfor %}
+     	 
+     </thead>
+     <tbody>
+        {% for row in data %}
+     	  <tr>
+            {% for cell in row %}
+            <td> {{ cell }}</td>
+            {% endfor %}
+     	  </tr>
+         {% endfor %}
+     	 
+
+     	 
+     </tbody>
+   </table>
+
+</body>
+</html>
